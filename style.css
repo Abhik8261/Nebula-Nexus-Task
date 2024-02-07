@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    /* overflow: hidden; */
+    overflow-x: hidden;
   }
   .navbar {
    margin: 4vh 2vh ;
@@ -178,13 +178,13 @@
     }
     li a {
    
-     
+    
       margin-right: 4vh;
     }
   }
   @media screen and (max-width: 500px) {
-    body{
-      overflow:none;
+     body{
+        overflow-y: auto;
     }
   .container{
       
